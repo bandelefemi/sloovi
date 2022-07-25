@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins';
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-sidebar {
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(56, 61, 79);
+    color: #fff;
+}
+
+.right-page {
+    background-color: whitesmoke;
+    width: 80vw;
+}
+
+.nav-bar {
+    height: 40px;
+    background-color: #fff;
+}
+
+.content-area {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.create-container {
+    width: 400px;
+    background-color: rgb(226, 245, 245);
+    border: 0.4px solid gray;
+    border-radius: 6px;
+}
+
+.create-info {
+    height: 30px;
+    background-color: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.create-data {
+    padding: 10px 15px;
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-form > button {
+    height: 20px;
+    width: 50px;
+}
